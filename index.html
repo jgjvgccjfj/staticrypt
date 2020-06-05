@@ -210,7 +210,7 @@ Your encrypted string</pre>
         var pageTitle = document.getElementById('title').value.trim();
         var instructions = document.getElementById('instructions').value;
         var data = {
-            title: pageTitle ? pageTitle : 'Protected Page',
+            title: pageTitle ? pageTitle : 'Enter Password',
             instructions: instructions ? instructions : '',
             encrypted: encryptedMsg,
             crypto_tag: '<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha384-lp4k1VRKPU9eBnPePjnJ9M2RF3i7PC30gXs70+elCVfgwLwx1tv5+ctxdtwxqZa7" crossorigin="anonymous"></scr' + 'ipt>'
